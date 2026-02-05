@@ -1,0 +1,43 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Editor — Daily Hukamnamas</title>
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="brand">Daily Hukamnamas</div>
+    <div class="links">
+      <a href="/">Home</a>
+      <a href="/editor">Editor</a>
+      <a id="adminLink" href="/admin" style="display:none">Admin</a>
+      <a id="signin" href="/.auth/login/externalid">Sign in</a>
+      <a id="signout" href="/.auth/logout" style="display:none">Sign out</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1>Publish Daily Hukam</h1>
+    <div id="editorOnly" class="panel">
+      <label>Date <input type="date" id="pubDate"></label>
+      <label>Gurudwara
+        <select id="eGSelect"></select>
+      </label>
+      <label>Hukam
+        <select id="hukamSelect"></select>
+      </label>
+      <button id="publishBtn">Publish</button>
+      <div id="pubResult" class="muted"></div>
+    </div>
+    <div id="noAccess" class="warn" style="display:none">Editor role required.</div>
+  </main>
+
+  <script src="/assets/app.js"></script>
+  <script>
+    window.App.initEditor();
+  </script>
+</body>
+</html>

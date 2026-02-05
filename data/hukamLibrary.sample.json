@@ -1,0 +1,28 @@
+[
+  {
+    "id": "hukam-000001",
+    "raags": [
+      "Asa"
+    ],
+    "source": "SGGS",
+    "gurmukhi": "...",
+    "transliteration": "...",
+    "translation_en": "...",
+    "tags": [
+      "morning"
+    ]
+  },
+  {
+    "id": "hukam-000002",
+    "raags": [
+      "Kalyan"
+    ],
+    "source": "SGGS",
+    "gurmukhi": "...",
+    "transliteration": "...",
+    "translation_en": "...",
+    "tags": [
+      "hope"
+    ]
+  }
+]

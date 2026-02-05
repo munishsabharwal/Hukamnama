@@ -1,0 +1,10 @@
+{
+  "name": "hukam-swa-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@azure/cosmos": "^4.1.1",
+    "@azure/communication-email": "^1.0.0"
+  }
+}
