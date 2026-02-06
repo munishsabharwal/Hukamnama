@@ -5,6 +5,7 @@
   "type": "module",
   "dependencies": {
     "@azure/cosmos": "^4.1.1",
+    "@azure/functions": "^4.4.0"
     "@azure/communication-email": "^1.0.0"
   }
 }
