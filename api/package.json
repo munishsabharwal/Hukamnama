@@ -2,7 +2,6 @@
   "name": "hukam-swa-api",
   "version": "0.1.0",
   "private": true,
-   "main": "hukams/*.js",
   "type": "module",
   "engines": { "node": ">=18 <20" },
   "dependencies": {
