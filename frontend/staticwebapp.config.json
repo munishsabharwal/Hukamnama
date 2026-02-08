@@ -7,7 +7,7 @@
     "exclude": ["/api/*"]
   },
  "auth": {
-    "rolesSource": "/api/getRoles",
+    "rolesSource": "/api/auth/getRoles",
     "identityProviders": {
       "customOpenIdConnectProviders": {
         "externalid": {
