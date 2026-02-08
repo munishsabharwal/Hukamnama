@@ -62,11 +62,5 @@
         "authenticated"
       ]
     }
-  ],
-  "responseOverrides": {
-    "401": {
-      "redirect": "/.auth/login/externalid?post_login_redirect_uri=/",
-      "statusCode": 302
-    }
-  } 
+  ]
 }
