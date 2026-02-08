@@ -19,7 +19,7 @@ app.http("hukams-getDaily", {
 
     try {
       const client = new CosmosClient(conn);
-      const db = client.database("hukamdb");
+      const db = client.database("DailyHukamDB");
 
       // Exact container names:
       const daily = db.container("DailyPublications");
