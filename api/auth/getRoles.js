@@ -4,7 +4,7 @@
 import { CosmosClient } from "@azure/cosmos";
 
 const client = new CosmosClient(process.env.COSMOS_CONN);
-const db = client.database('hukamdb');
+const db = client.database('DailyHukamDB');
 const users = db.container('Users');
 
 export async function POST(request, context){
