@@ -17,7 +17,7 @@
               "clientSecretSettingName": "EXTERNALID_CLIENT_SECRET"
             },
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "https://<your-ext-tenant-domain>/<tenant-id>/<USER_FLOW_NAME>/v2.0/.well-known/openid-configuration"
+              "wellKnownOpenIdConfiguration": "https://GurudwaraUsers.ciamlogin.com/f5556e86-554a-46ac-9576-ef29226843f0/v2.0/.well-known/openid-configuration"
             }
           },
           "login": {
