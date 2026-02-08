@@ -4,7 +4,7 @@
   },
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/api/*"]
+    "exclude": ["/api/*", "/.auth/*"]
   },
  "auth": {
     "rolesSource": "/api/auth/getRoles",
@@ -51,6 +51,10 @@
       "allowedRoles": [
         "admin"
       ]
+    },
+    {
+  "route": "/assets/*",
+  "allowedRoles": ["anonymous"]
     },
     {
       "route": "/api/hukams/*",
